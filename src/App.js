@@ -22,6 +22,7 @@ function App() {
 
       <Questao03 />
 
+      <Questao04 />
 
       <Questao05 />
 
