@@ -1,7 +1,8 @@
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
-import axios from 'axios'
+import axios from 'axios';
+
 
 const Questao03 = () => {
 
@@ -25,8 +26,7 @@ const Questao03 = () => {
         <ul>
             {pokemon.map(item => (
                 <li>
-                    name:{item.name}
-                    url:{item.url}
+                    <a>name:{item.name}</a>                    
                 </li>
             ))}
       </ul>
