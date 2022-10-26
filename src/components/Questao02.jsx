@@ -26,20 +26,20 @@ const Questao02 = () => {
             <h1>Questão 02</h1>
 
             <ul>
-                <div>
-                    <input type="number" placeholder='Número 1' onChange={((e) => setNumero1(e.target.valueAsNumber))}></input>
+                <div class="row input-group mb-3">
+                    <input class="form-control shadow p-2 mb-3" type="number" placeholder='Número 1' onChange={((e) => setNumero1(e.target.valueAsNumber))}></input>
 
-                    <input type="number" placeholder='Número 2' onChange={((e) => setNumero2(e.target.valueAsNumber))}></input>
+                    <input class="form-control shadow p-2 mb-3" type="number" placeholder='Número 2' onChange={((e) => setNumero2(e.target.valueAsNumber))}></input>
                 </div>
 
                 <div>
-                    <button onClick={soma}>+</button>
+                    <button class="btn btn-outline-primary" onClick={soma}>+</button>
 
-                    <button onClick={subtracao}>-</button>
+                    <button class="btn btn-outline-primary" onClick={subtracao}>-</button>
 
-                    <button onClick={multiplicacao}>*</button>
+                    <button class="btn btn-outline-primary" onClick={multiplicacao}>*</button>
 
-                    <button onClick={divisao}>/</button>
+                    <button class="btn btn-outline-primary" onClick={divisao}>/</button>
 
                 </div>
 
