@@ -30,7 +30,7 @@ const Questao04 = () => {
       <div>
         <ul>
           <li>
-            <h4>Pais mais populoso da Africa é: {NomePais}</h4>
+            <h4>Pais mais populoso da África é: {NomePais}</h4>
             Contendo um número de: {MaisPopuloso} habitantes.
           </li>
         </ul>
